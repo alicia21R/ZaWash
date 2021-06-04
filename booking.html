@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ZaWash</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="projects/ZaWash/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="projects/ZaWash/dist/css/bootstrap.min.css.map">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">ZaWash</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse"></div>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="Services.html" class="nav-link">Services</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="py-5 text-center">
+                <img src="" alt="" width="72" height="57" class="d-block mx-auto mb-4">
+                <h2>Register Here</h2>
+            </div>
+            <div class="col-md-7 col-lg-8">
+                <h4>Car Registeration</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="Car Type" class="form-label">Car Type</label>
+                            <input type="text" class="form-control" id="carType" placeholder="Range Rover" value="" required>
+                        </div>
+                        <div class="mb-3 col-sm-6">
+                            <label for="Number" class="form-label">Number Plate</label>
+                            <input type="text" class="form-control" id="numberPlate" placeholder="UBA 123z" value="" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="Car color" class="form-label">Car color</label>
+                            <input type="text" class="form-control" id="carColor" placeholder="green" value="" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="Car Make" class="form-label">Car Make</label>
+                            <input type="text" class="form-control" id="carMake" placeholder="toyota" value="" required>
+                        </div>
+                    </div>
+                </form>
+                <p>
+                    <h4>Check In Time</h4>
+                </p>
+                <form class="needs-validation" novalidate>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="Date" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="date" placeholder="green" value="" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="car arrival" class="form-label">Time of Arrival</label>
+                            <input type="time" class="form-control" id="carArrival" placeholder="00:00 am" value="" required>
+                        </div>
+                        <div class="mb-3 col-sm-6">
+                            <label for="car departure" class="form-label">Time of Departure</label>
+                            <input type="time" class="form-control" id="numberPlate" placeholder="00:00 pm" value="" required>
+                        </div>
+
+                    </div>
+                </form>
+                <p>
+                    <h4>Payment</h4>
+                </p>
+                <div class="my-3">
+                    <div class="form-check">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                        <label class="form-check-label" for="credit">Cash</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                        <label class="form-check-label" for="credit">MTN Momo </label>
+                    </div>
+                    <div class="form-check">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                        <label class="form-check-label" for="credit">Airtel Money</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                        <label class="form-check-label" for="credit">Other</label>
+                    </div>
+                </div>
+                <hr class="my-4">
+                <p>
+                    <h4>For Official Use Only</h4>
+                </p>
+                <form class="needs-validation" novalidate>
+                    <fieldset>
+                        <div class="mb-3 form-check">
+                            <label for="car wash package" class="form-label">CarWash Package </label>
+                            <select class="form-select" id="state" required>
+                                    <option value="">Full Wash</option>
+                                    <option>Small Car</option>
+                                    <option>Medium</option>
+                                    <option>Full Wash </option>
+                                    <option>Boda Boda</option>
+                                    <option>engine</option>
+                                    <option>Other</option>
+                                  </select>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <label for="car washer" class="form-label">Car Washer</label>
+                            <input type="text" class="form-control" id="kanaabe" placeholder="senfuka robert" value="" required>
+                        </div>
+
+                    </fieldset>
+                    <hr class="my-4">
+
+                    <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
+                </form>
+            </div>
+
+        </main>
+
+        <footer class=" footer mt-auto py-3 bg-light ">
+            <div class="container ">
+                <span class="text-muted ">&copy; 2021 Zaabu Washing Limited.</span>
+            </div>
+        </footer>
+    </div>
+
+    <script></script>
+</body>
+
+</html>
